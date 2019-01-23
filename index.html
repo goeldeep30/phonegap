@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Create Change Request</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/assig_boot.css">
+    <script src="js/myScript.js"></script>
+  </head>
+  <form id="form" method="post">
+    <div class="container">
+      <div class="col-lg-4">
+        <div class=" bc_grey ">
+        	<div class="row">
+        	<div id="header_image" class="col-sm-2" ><a href="index.html"><img src="res/back.jpg" class="rounded-circle" height="40" /></a></div>
+        	<div  class="col-sm-10"><h4>Change Request Properties</h4> </div>
+        </div>
+        </div>
+        <table class="table">
+          <tr class="row"><td class="col">Name</td><td><input type="text" name="name"></td></tr>
+          <tr class="row"><td class="col">Owner</td><td><input type="text" name="owner"></td></tr>
+          <tr class="row"><td class="col">Due Date</td><td><input type="Date" name="dueDate"></td></tr>
+          <tr class="row"><td class="col">Related Issue</td><td><input type="text" name="relatedIssue"></td></tr>
+          <tr class="row"><td class="col">Description</td><td><input type="text" name="description"></td></tr>
+          <tr class="row"><td class="col">Related Part</td><td><input type="text" name="relatedPart"></td></tr>
+          <tr class="row"><td class="col">Comments</td><td><textarea rows="4" cols="21" name="comment" form="usrform">Enter text here...</textarea></td></tr>
+        </table>
+        <div class="bc_grey">
+          <input type="submit" onclick=myFunction('CRprop') name="ok" value="+"><input type="submit" onclick=myFunction('listFeat') name="cancel" value="x">
+        </div>
+      </div>
+
+
+
+  </div>
+  </form>
+</html>
